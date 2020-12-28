@@ -14,6 +14,7 @@ Docker setup for local development with Ruby on Rails
 
 ## Update config/database.yml like so
 
+```
 default: &default
   adapter: postgresql
   encoding: unicode
@@ -23,6 +24,7 @@ default: &default
   host: db
   username: postgres
   password: password
+```
 
 ## Next 
 1. rake db:create
